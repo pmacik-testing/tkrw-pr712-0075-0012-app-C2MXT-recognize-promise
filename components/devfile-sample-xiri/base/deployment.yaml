@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-xiri
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0012-tenant/tkrw-pr712-0075-0012-app/devfile-sample-xiri@sha256:a6d9f0f4f933c9e4fec0e1e1414d3e8c6f57536cb9613c15257cba6297fdb102
         name: my-nodejs
         ports:
         - containerPort: 3001
